@@ -47,27 +47,27 @@
 </header>
 </div>
 <form action="https://echo.htmlacademy.ru" class="form" method="get">
-<section class="main__form">
+<section class="form-main">
   <div class="form__wrapper">
-    <div class="data-card">
+    <div class="form-card">
       <label for="data-name" class="form__label">
-        <span class="data__title">ИМЯ:*</span>
+        <span class="form-card__title">ИМЯ:*</span>
         <input type="text" class="form__control form__control--text" placeholder="барсик" id="data-name" name="data-name">
       </label>
 
       <label for="weight" class="form__data-label form__label">
-        <span class="data__title">Вес (кг):*</span>
+        <span class="form-card__title">Вес (кг):*</span>
         <input type="number" class="form__control form__control--number" placeholder="7" id="weight" name="weight">
       </label>
 
-      <span class="data__title">Возраст (лет):</span>
+      <span class="form-card__title">Возраст (лет):</span>
       <label for="age" class="form__data-label form__label">
         <input type="number" class="form__control form__control--number" placeholder="7" id="age" name="age">
       </label>
       </div>
-      <div class="card__radio">
-        <ul class="radio__list">
-            <li class="radio__item">
+      <div class="form-radio">
+        <ul class="form-radio__list">
+            <li class="form-radio__item">
               <label class=" form__label-radio" for="slim">
               <input class="visually-hidden form__radio" type="radio" checked id="slim" name="choice-service" value="slim">
               <span class="control-label">
@@ -76,7 +76,7 @@
               </label>
             </li>
 
-            <li class="radio-item">
+            <li class="form-radio__item">
               <label class=" form__label-radio" for="weight-pro">
               <input class="visually-hidden form__radio" type="radio" id="weight-pro" name="choice-service" value="weight-pro">
               <span class="control-label">
@@ -85,8 +85,8 @@
               </label>
             </li>
 
-              <li class="radio__item">
-              <label class=" form__label-radio" for="no">
+              <li class="form-radio__item">
+              <label class=" form-radio__label" for="no">
               <input class="visually-hidden form__radio" type="radio" id="no" name="choice-service" value="advice">
               <span class="control-label">
                 Не знаю (Нужен ваш совет)
@@ -95,73 +95,73 @@
             </li>
           </ul>
       </div>
-      <div class="contact__inner">
-      <h3 class="contact__title">Контактные данные (владельца кота)</h3>
-      <ul class="contact__list">
-        <li class="contact__item">
-          <label for="email" class="email-label form__label">
-            <span class="email__title">E-mail:*</span>
-        <input type="email" class="email__input form__control--text" placeholder="кuklachev@gmail.com" id="email" name="email">
+      <div class="form-contact">
+      <h3 class="form-contact__title">Контактные данные (владельца кота)</h3>
+      <ul class="form-contact__list">
+        <li class="form-contact__item">
+          <label for="email" class=" form-contact__label">
+            <span class="form-contact__subtitle">E-mail:*</span>
+        <input type="email" class="form-contact__input form-contact__control-text" placeholder="кuklachev@gmail.com" id="email" name="email">
       </label>
         </li>
-        <li class="contact__item">
-          <label for="tel" class="phone-label form__label">
-            <span class="phone__title">Телефон:*</span>
-        <input type="tel" class="phone__input form__control--number" placeholder="8 (960) 900-60-90" id="tel" name="tel">
+        <li class="form-contact__item">
+          <label for="tel" class="form-contact__label form__label">
+            <span class="form-contact__subtitle">Телефон:*</span>
+        <input type="tel" class="form-contact__input form__control-number" placeholder="8 (960) 900-60-90" id="tel" name="tel">
       </label>
         </li>
       </ul>
       </div>
 
-      <div class="comment-inner">
-      <h3 class="comment__title">
+      <div class="form-comment">
+      <h3 class="form-comment__title">
       Комментарий
       </h3>
-       <textarea name="comment" class="form__control--textarea" placeholder="Расскажите обо всех повадках кота" name="comment"></textarea>
+       <textarea name="comment" class="form__control-textarea" placeholder="Расскажите обо всех повадках кота" name="comment"></textarea>
        </div>
-       <div class="aplication-inner">
-         <h3 class="aplication__title">Дополнительно</h3>
-          <ul class="aplication__list">
-              <li class="aplication__item">
-                <label class="form__checkbox">
+       <div class="form-aplication">
+         <h3 class="form-aplication__title">Дополнительно</h3>
+          <ul class="form-aplication__list">
+              <li class="form-aplication__item">
+                <label class="form-aplication__checkbox">
                 <input class="visually-hidden form__checkbox-control"  type="checkbox" checked>
-                  <span class="aplication-label">
+                  <span class="form-aplication-subtitle">
                     сахарозаменитель
                   </span>
                 </label>
               </li>
 
-              <li class="aplication__item">
-                <label class="form__checkbox">
+              <li class="form-aplication__item">
+                <label class="form-aplication__checkbox">
                 <input class="visually-hidden form__checkbox-control"  type="checkbox">
-                  <span class="aplication__label">
+                  <span class="form-aplication__subtitle">
                     питьевая вода
                   </span>
                 </label>
               </li>
 
-              <li class="aplication__item">
-                <label class="form__checkbox">
+              <li class="form-aplication__item">
+                <label class="form-aplication__checkbox">
                 <input class="visually-hidden form__checkbox-control"  type="checkbox">
-                  <span class="aplication__label">
+                  <span class="form-aplication__subtitle">
                     молоко
                   </span>
                 </label>
               </li>
 
-              <li class="aplication__item">
-                <label class="form__checkbox">
+              <li class="form-aplication__item">
+                <label class="form-aplication__checkbox">
                 <input class="visually-hidden form__checkbox-control"  type="checkbox">
-                  <span class="aplication__label">
+                  <span class="form-aplication__subtitle">
                     витамины
                   </span>
                 </label>
               </li>
             </ul>
-            <button class="aplication__submit" type="submit">
+            <button class="form-aplication__submit" type="submit">
               отправить заявку
             </button>
-            <span class="aplication__desc">* — Обязательные поля</span>
+            <span class="form-aplication__desc">* — Обязательные поля</span>
        </div>
   </div>
 </section>
@@ -172,12 +172,12 @@
    <div class="footer-container">
     <section class="location">
        <div class="location__wrapper">
-        <div class="location__contacts">
-           <h2 class="contacts__title">приглашаем
+        <div class="location-contacts">
+           <h2 class="location__contacts-title">приглашаем
 к сотрудничеству
 дилеров!</h2>
 
-        <address class="contacts__subtitle">ул. Большая
+        <address class="location__contacts-subtitle">ул. Большая
 Конюшенная, д. 19/8
 Санкт-Петербург</address>
 
@@ -188,7 +188,7 @@
 
        </div>
      </section>
-    <a href="#" class="logo__link">
+    <a href="#" class="main-footer__logo-link">
      <svg width="128" height="24" viewBox="0 0 128 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2403_695)">
 <path d="M1.6025 22.0513C0.468327 20.3682 -0.0946878 18.3503 -3.57628e-07 16.3077V7.79487C-0.137348 5.73031 0.390413 3.67661 1.50235 1.94872C2.60407 0.615385 4.30673 0 6.81064 0C9.31455 0 10.9171 0.615385 11.9186 1.74359C13.006 3.17255 13.5409 4.96181 13.421 6.76923V8.82051H8.5133V6.46154C8.55294 5.76385 8.45062 5.06533 8.21283 4.41026C8.08573 4.14583 7.88428 3.9264 7.6344 3.78018C7.38452 3.63395 7.09763 3.56763 6.81064 3.58974C6.10955 3.58974 5.60876 3.79487 5.40845 4.30769C5.18187 5.03643 5.08022 5.79984 5.10798 6.5641V17.5385C5.05509 18.2799 5.19324 19.0227 5.50861 19.6923C5.70892 20.2051 6.2097 20.4103 6.9108 20.4103C7.61189 20.4103 8.01252 20.2051 8.21283 19.6923C8.44055 18.9992 8.54239 18.2692 8.5133 17.5385V15.0769H13.421V17.1282C13.5228 18.9651 12.9911 20.7803 11.9186 22.2564C10.9171 23.4872 9.2144 24.1026 6.81064 24.1026C4.40689 24 2.60407 23.3846 1.6025 22.0513Z" fill="#111111"/>
@@ -245,8 +245,8 @@
     </ul>
   </div>
   <div class="main-footer__copiright copiright">
-    <a href="#" class="logo__htmlacademy">
-    <span class="htmlacademy__title">HTML Academy</span>
+    <a href="#" class="copiright__logo-htmlacademy">
+    <span class="copiright__htmlacademy-title">HTML Academy</span>
 
     <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2403_693)">
