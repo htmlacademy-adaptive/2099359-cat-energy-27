@@ -49,25 +49,25 @@
 <form action="https://echo.htmlacademy.ru" class="form" method="get">
 <section class="form-main">
   <div class="form__wrapper">
-    <div class="form-card">
-      <label for="data-name" class="form__label">
-        <span class="form-card__title">ИМЯ:*</span>
+    <div class="form__card">
+      <label for="data-name" class="form__label form__data-label">
+        <span class="form__card-title">ИМЯ:*</span>
         <input type="text" class="form__control form__control--text" placeholder="барсик" id="data-name" name="data-name">
       </label>
 
-      <label for="weight" class="form__data-label form__label">
-        <span class="form-card__title">Вес (кг):*</span>
+      <label for="weight" class="form__label form__data-label ">
+        <span class="form__card-title">Вес (кг):*</span>
         <input type="number" class="form__control form__control--number" placeholder="7" id="weight" name="weight">
       </label>
 
-      <span class="form-card__title">Возраст (лет):</span>
-      <label for="age" class="form__data-label form__label">
+      <span class="form__card-title">Возраст (лет):</span>
+      <label for="age" class="form__label form__data-label">
         <input type="number" class="form__control form__control--number" placeholder="7" id="age" name="age">
       </label>
       </div>
-      <div class="form-radio">
-        <ul class="form-radio__list">
-            <li class="form-radio__item">
+      <div class="form__radio">
+        <ul class="form__list">
+            <li class="form__list-item">
               <label class=" form__label-radio" for="slim">
               <input class="visually-hidden form__radio" type="radio" checked id="slim" name="choice-service" value="slim">
               <span class="control-label">
@@ -76,7 +76,7 @@
               </label>
             </li>
 
-            <li class="form-radio__item">
+            <li class="form__list-item">
               <label class=" form__label-radio" for="weight-pro">
               <input class="visually-hidden form__radio" type="radio" id="weight-pro" name="choice-service" value="weight-pro">
               <span class="control-label">
@@ -85,8 +85,8 @@
               </label>
             </li>
 
-              <li class="form-radio__item">
-              <label class=" form-radio__label" for="no">
+              <li class="form__list-item">
+              <label class=" form__radio-label" for="no">
               <input class="visually-hidden form__radio" type="radio" id="no" name="choice-service" value="advice">
               <span class="control-label">
                 Не знаю (Нужен ваш совет)
@@ -95,73 +95,73 @@
             </li>
           </ul>
       </div>
-      <div class="form-contact">
-      <h3 class="form-contact__title">Контактные данные (владельца кота)</h3>
-      <ul class="form-contact__list">
-        <li class="form-contact__item">
-          <label for="email" class=" form-contact__label">
-            <span class="form-contact__subtitle">E-mail:*</span>
-        <input type="email" class="form-contact__input form-contact__control-text" placeholder="кuklachev@gmail.com" id="email" name="email">
+      <div class="form__section">
+      <h3 class="form__section-title">Контактные данные (владельца кота)</h3>
+      <ul class="form__list">
+        <li class="form__list-item">
+          <label for="email" class="form__label form__section-label">
+            <span class="form__section-subtitle">E-mail:*</span>
+        <input type="email" class="form__section-input form__section-control-text" placeholder="кuklachev@gmail.com" id="email" name="email">
       </label>
         </li>
-        <li class="form-contact__item">
-          <label for="tel" class="form-contact__label form__label">
-            <span class="form-contact__subtitle">Телефон:*</span>
-        <input type="tel" class="form-contact__input form__control-number" placeholder="8 (960) 900-60-90" id="tel" name="tel">
+        <li class="form__list-item">
+          <label for="tel" class="form__section-label form__label">
+            <span class="form__section-subtitle">Телефон:*</span>
+        <input type="tel" class="form__section-input form__control-number" placeholder="8 (960) 900-60-90" id="tel" name="tel">
       </label>
         </li>
       </ul>
       </div>
 
-      <div class="form-comment">
-      <h3 class="form-comment__title">
+      <div class="form__comment">
+      <h3 class="form__comment-title">
       Комментарий
       </h3>
-       <textarea name="comment" class="form__control-textarea" placeholder="Расскажите обо всех повадках кота" name="comment"></textarea>
+       <textarea class="form__control-textarea" placeholder="Расскажите обо всех повадках кота" name="comment"></textarea>
        </div>
-       <div class="form-aplication">
-         <h3 class="form-aplication__title">Дополнительно</h3>
-          <ul class="form-aplication__list">
-              <li class="form-aplication__item">
-                <label class="form-aplication__checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox" checked>
-                  <span class="form-aplication-subtitle">
+       <div class="form__aplication">
+         <h3 class="form__section-title">Дополнительно</h3>
+          <ul class="form__aplication-list">
+              <li class="form__list-item">
+                <label class="form__aplication-checkbox">
+                <input class="visually-hidden form__checkbox-control"  type="checkbox" checked name="aplication">
+                  <span class="form__aplication-subtitle">
                     сахарозаменитель
                   </span>
                 </label>
               </li>
 
-              <li class="form-aplication__item">
-                <label class="form-aplication__checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox">
-                  <span class="form-aplication__subtitle">
+              <li class="form__list-item">
+                <label class="form__aplication-checkbox">
+                <input class="visually-hidden form__checkbox-control"  type="checkbox" name="aplication">
+                  <span class="form__aplication-subtitle">
                     питьевая вода
                   </span>
                 </label>
               </li>
 
-              <li class="form-aplication__item">
-                <label class="form-aplication__checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox">
-                  <span class="form-aplication__subtitle">
+              <li class="form__list-item">
+                <label class="form__aplication-checkbox">
+                <input class="visually-hidden form__checkbox-control"  type="checkbox" name="aplication">
+                  <span class="form__aplication-subtitle">
                     молоко
                   </span>
                 </label>
               </li>
 
-              <li class="form-aplication__item">
-                <label class="form-aplication__checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox">
-                  <span class="form-aplication__subtitle">
+              <li class="form__list-item">
+                <label class="form__aplication-checkbox">
+                <input class="visually-hidden form__checkbox-control"  type="checkbox" name="aplication">
+                  <span class="form__aplication-subtitle">
                     витамины
                   </span>
                 </label>
               </li>
             </ul>
-            <button class="form-aplication__submit" type="submit">
+            <button class="form__aplication-submit" type="submit">
               отправить заявку
             </button>
-            <span class="form-aplication__desc">* — Обязательные поля</span>
+            <span class="form__aplication-desc">* — Обязательные поля</span>
        </div>
   </div>
 </section>
@@ -169,20 +169,20 @@
   </main>
 
    <footer class="main-footer">
-   <div class="footer-container">
+   <div class="main-footer__wrapper">
     <section class="location">
        <div class="location__wrapper">
-        <div class="location-contacts">
-           <h2 class="location__contacts-title">приглашаем
+        <div class="location__contacts">
+           <h2 class="location__title">приглашаем
 к сотрудничеству
 дилеров!</h2>
 
-        <address class="location__contacts-subtitle">ул. Большая
+        <address class="location__adress">ул. Большая
 Конюшенная, д. 19/8
 Санкт-Петербург</address>
 
          </div>
-        <div class="location-image">
+        <div class="location__image">
          <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
          </div>
 
