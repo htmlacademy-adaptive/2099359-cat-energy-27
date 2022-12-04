@@ -1,0 +1,42 @@
+
+
+.main-footer {
+  background: #F2F2F2;
+}
+
+.main-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  align-items: center;
+}
+
+
+.social__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 26px;
+}
+
+.copiright {
+  background: url(../img/logo-html.svg) no-repeat;
+  background-position: right center;
+  height: 35px;
+}
+
+
+.copiright__htmlacademy-title {
+  font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #444444;
+padding: 0;
+margin: 0;
+width: 163px;
+padding-top: 7px;
+}
+

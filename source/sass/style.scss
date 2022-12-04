@@ -1,1 +1,60 @@
 // Начните писать стили здесь
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/form-main.scss";
+@import "./blocks/example.scss";
+@import "./blocks/catalog-cards.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/operating.scss";
+@import "./blocks/addition.scss";
+@import "./blocks/opportunities-cards.scss";
+@import "./blocks/location.scss";
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/oswald/oswaldregular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato/Lato-Regular.woff2") format("woff2");
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+html {
+  height: 100%;
+}
+body{
+  min-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+ .main-container {
+    flex-grow: 1;
+ }

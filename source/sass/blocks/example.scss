@@ -1,0 +1,72 @@
+
+.example__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 76px;
+
+}
+
+.example {
+
+  background: linear-gradient(to top, #F2F2F2 77%, transparent 50%);
+
+}
+
+
+.example__subtitle {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+  width: 436px;
+}
+.example__card {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.example__list {
+  display: flex;
+  list-style-type: none;
+  gap: 42px;
+  padding: 0;
+  margin: 0;
+}
+.example__list-item {
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #CDCDCD;
+border-radius: 3px;
+width: 162px;
+height: 68px;
+}
+
+.example__item-title {
+  font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+padding: 0;
+margin: 0;
+padding-top: 7px;
+color: #000000;
+}
+
+.example__item-subtitle {
+  background: #F2F2F2;
+  height: 8px;
+  font-family: 'Lato' , sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 14px;
+  padding-left: 5px;
+}

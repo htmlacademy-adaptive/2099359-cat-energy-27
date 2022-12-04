@@ -3,42 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи-Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-   <header class="main-header">
-     <a href="#" class="main-header__logo">
-       <img src="img/logo-desktop.svg" alt="Логотип" width="203" height="59">
-     </a>
-     <nav class="main-nav">
-       <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-       </button>
-       <div class="main-nav__wrapper">
-         <ul class="main-nav__list site-list">
-           <li class="site-list__item site-list__item--current">
-             <a>
-               Главная
-             </a>
-           </li>
+    <header class="main-header">
+      <a href="index.html" class="main-header__logo">
+        <img src="img/logo-desktop.svg" alt="Логотип" width="203" height="59">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+         <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a class="navigation-link main-nav__link-selected">
+                Главная
+              </a>
+            </li>
 
-            <li class="site-list__item">
-             <a href="#">
-               Каталог продукции
-             </a>
-           </li>
+             <li class="site-list__item">
+              <a href="catalog.html" class="navigation-link">
+                Каталог продукции
+              </a>
+            </li>
 
-            <li class="site-list__item">
-             <a href="#">
-               Подбор программы
-             </a>
-           </li>
+             <li class="site-list__item">
+              <a href="form.html" class="navigation-link">
+                Подбор программы
+              </a>
+            </li>
 
-         </ul>
-       </div>
-     </nav>
-   </header>
-
-   <main class="main-wrapper">
+          </ul>
+        </div>
+      </nav>
+    </header>
+   <main class="main-wrapper wrapper">
     <h1 class="main-title">Каталог продукции</h1>
     <div class="cards">
       <div class="card-advantages">
@@ -162,7 +162,6 @@
   </dl>
   <a href="#" class="card-advantages__link">заказать</a>
 </div>
-
       <div class="card-advantages">
         <a href="#" class="card-advantages__link-image"><img src="img/catalog-1.png" alt="Товар." class="card-image"></a>
         <h2 class="card-advantages__title"><a href="#">Показать еще
@@ -170,8 +169,9 @@
   <p class="card-advantages__subtitle">На самом деле вкусов гораздо больше!</p>
 <a href="#" class="card-advantages__link">показать все</a>
     </div>
+    </div>
     <section class="addition">
-      <div class="addition__wrapper">
+      <div class="addition__wrapper wrapper">
         <h1 class="addition__title">Дополнительные товары</h1>
         <div class="addition-card">
           <ul class="addition-card__list">
@@ -205,7 +205,7 @@
             </li>
           </ul>
           <div class="addition-gift">
-              <svg width="80" height="84" viewBox="0 0 80 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="addition-gift__thumb" width="80" height="84" viewBox="0 0 80 84" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M65.6571 36.7572H14.3908C12.5914 36.7572 11.1277 35.2941 11.1277 33.4953V23.7228C11.1277 21.9241 12.5914 20.4603 14.3908 20.4603H65.6564C67.4552 20.4603 68.9183 21.9241 68.9183 23.7228V33.4959C68.9189 35.2941 67.4558 36.7572 65.6571 36.7572ZM14.3908 22.9603C13.9771 22.9603 13.6277 23.3097 13.6277 23.7228V33.4959C13.6277 33.9159 13.9702 34.2578 14.3908 34.2578H65.6564C66.0764 34.2578 66.4183 33.9159 66.4183 33.4959V23.7228C66.4183 23.3091 66.0689 22.9603 65.6564 22.9603H14.3908Z" fill="white"/>
 <path d="M58.5075 70.236H21.5375C18.0737 70.236 15.2556 67.4185 15.2556 63.9541V35.5072C15.2556 34.8172 15.8156 34.2572 16.5056 34.2572C17.1956 34.2572 17.7556 34.8172 17.7556 35.5072V63.9541C17.7556 66.0397 19.4525 67.736 21.5375 67.736H58.5075C60.5919 67.736 62.2881 66.0397 62.2881 63.9541V35.5072C62.2881 34.8172 62.8481 34.2572 63.5381 34.2572C64.2281 34.2572 64.7881 34.8172 64.7881 35.5072V63.9541C64.7881 67.4185 61.9706 70.236 58.5075 70.236Z" fill="white"/>
 <path d="M40.0232 70.236C39.3332 70.236 38.7732 69.6766 38.7732 68.986V35.5072C38.7732 34.8172 39.3332 34.2572 40.0232 34.2572C40.7132 34.2572 41.2732 34.8172 41.2732 35.5072V68.9853C41.2732 69.6766 40.7138 70.236 40.0232 70.236Z" fill="white"/>
@@ -221,28 +221,27 @@
           </div>
         </div>
     </section>
-  </div>
    </main>
- <footer class="main-footer">
-   <div class="main-footer__wrapper">
+   <footer class="main-footer">
     <section class="location">
-       <div class="location__wrapper">
+       <div class="location__wrapper wrapper">
         <div class="location__contacts">
            <h2 class="location__title">приглашаем
 к сотрудничеству
 дилеров!</h2>
 
-        <address class="location__adress">ул. Большая
-Конюшенная, д. 19/8
-Санкт-Петербург</address>
-
+        <span class="location__adress">ул. Большая
+Конюшенная, д. 19/8<br>
+Санкт-<br>Петербург</span>
+          </div>
          </div>
         <div class="location__image">
-         <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
+         <img src="img/location.png" alt="Карта" class="location__background" width="1470" height="400">
          </div>
 
-       </div>
+
      </section>
+     <div class="main-footer__wrapper wrapper ">
     <a href="#" class="main-footer__logo-link">
      <svg width="128" height="24" viewBox="0 0 128 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2403_695)">
@@ -301,19 +300,8 @@
   </div>
   <div class="main-footer__copiright copiright">
     <a href="#" class="copiright__logo-htmlacademy">
-    <span class="copiright__htmlacademy-title">HTML Academy</span>
+    <p class="copiright__htmlacademy-title">HTML Academy</p>
 
-    <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_2403_693)">
-<path d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z" fill="#666666"/>
-</g>
-<defs>
-<clipPath id="clip0_2403_693">
-<rect width="27" height="34" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-<span class="visually-hidden">htmlacademy__logo</span>
   </a>
 </div>
 

@@ -3,74 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>Кэт энерджи:form</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-   <header class="main-header">
-     <a href="#" class="main-header__logo">
-       <img src="img/logo-desktop.svg" alt="Логотип" width="203" height="59">
-     </a>
-     <nav class="main-nav">
-       <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-       </button>
-       <div class="main-nav__wrapper">
-         <ul class="main-nav__list site-list">
-           <li class="site-list__item site-list__item--current">
-             <a>
-               Главная
-             </a>
-           </li>
+    <header class="main-header">
+      <a href="index.html" class="main-header__logo">
+        <img src="img/logo-desktop.svg" alt="Логотип" width="203" height="59">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+         <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a class="navigation-link main-nav__link-selected">
+                Главная
+              </a>
+            </li>
 
-            <li class="site-list__item">
-             <a href="#">
-               Каталог продукции
-             </a>
-           </li>
+             <li class="site-list__item">
+              <a href="catalog.html" class="navigation-link">
+                Каталог продукции
+              </a>
+            </li>
 
-            <li class="site-list__item">
-             <a href="#">
-               Подбор программы
-             </a>
-           </li>
+             <li class="site-list__item">
+              <a href="form.html" class="navigation-link">
+                Подбор программы
+              </a>
+            </li>
 
-         </ul>
-       </div>
-     </nav>
-   </header>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
   <main class="main-holder">
-    <div class="inner-holder">
-      <header class="inner-header">
-    <h1 class="main-subject">Подбор программы</h1>
-    <p class="main-desc">Заполните анкету, и мы подберем
+<form action="https://echo.htmlacademy.ru" class="form" method="get">
+  <div class="form__holder wrapper">
+    <header class="form__header">
+  <h1 class="form__title">Подбор программы</h1>
+  <p class="form__subtitle">Заполните анкету, и мы подберем
 программу питания для вашего кота</p>
 </header>
 </div>
-<form action="https://echo.htmlacademy.ru" class="form" method="get">
 <section class="form-main">
-  <div class="form__wrapper">
+  <div class="form__wrapper wrapper">
+    <div class="form__card-data">
     <div class="form__card">
       <label for="data-name" class="form__label form__data-label">
-        <span class="form__card-title">ИМЯ:*</span>
+        <span class="form__card-title form__text">ИМЯ:*</span>
         <input type="text" class="form__control form__control--text" placeholder="барсик" id="data-name" name="data-name">
       </label>
 
       <label for="weight" class="form__label form__data-label ">
-        <span class="form__card-title">Вес (кг):*</span>
-        <input type="number" class="form__control form__control--number" placeholder="7" id="weight" name="weight">
+        <span class="form__card-title form__text">Вес (кг):*</span>
+        <input type="number" class="form__control form__control--number " placeholder="7" id="weight" name="weight">
       </label>
 
-      <span class="form__card-title">Возраст (лет):</span>
+
       <label for="age" class="form__label form__data-label">
-        <input type="number" class="form__control form__control--number" placeholder="7" id="age" name="age">
+        <span class="form__card-title form__text">Возраст (лет):</span>
+        <input type="number" class="form__control  form__control--age" placeholder="7" id="age" name="age">
       </label>
       </div>
       <div class="form__radio">
-        <ul class="form__list">
+        <ul class="form__list-radio">
             <li class="form__list-item">
               <label class=" form__label-radio" for="slim">
-              <input class="visually-hidden form__radio" type="radio" checked id="slim" name="choice-service" value="slim">
-              <span class="control-label">
+              <input class=" form__radio-input" type="radio" checked id="slim" name="choice-service" value="slim">
+              <span class="control-label form__text">
                 похудение
                 </span>
               </label>
@@ -78,8 +81,8 @@
 
             <li class="form__list-item">
               <label class=" form__label-radio" for="weight-pro">
-              <input class="visually-hidden form__radio" type="radio" id="weight-pro" name="choice-service" value="weight-pro">
-              <span class="control-label">
+              <input class="form__radio-input" type="radio" id="weight-pro" name="choice-service" value="weight-pro">
+              <span class="control-label form__text">
                 Набор массы
                 </span>
               </label>
@@ -87,45 +90,46 @@
 
               <li class="form__list-item">
               <label class=" form__radio-label" for="no">
-              <input class="visually-hidden form__radio" type="radio" id="no" name="choice-service" value="advice">
-              <span class="control-label">
+              <input class=" form__radio-input" type="radio" id="no" name="choice-service" value="advice">
+              <span class="control-label form__text">
                 Не знаю (Нужен ваш совет)
                 </span>
               </label>
             </li>
           </ul>
       </div>
+    </div>
       <div class="form__section">
       <h3 class="form__section-title">Контактные данные (владельца кота)</h3>
       <ul class="form__list">
         <li class="form__list-item">
           <label for="email" class="form__label form__section-label">
-            <span class="form__section-subtitle">E-mail:*</span>
-        <input type="email" class="form__section-input form__section-control-text" placeholder="кuklachev@gmail.com" id="email" name="email">
+            <span class="form__section-subtitle form__text">E-mail:*</span>
+        <input type="email" class="form__section-input form__control" placeholder="кuklachev@gmail.com" id="email" name="email">
       </label>
         </li>
         <li class="form__list-item">
           <label for="tel" class="form__section-label form__label">
-            <span class="form__section-subtitle">Телефон:*</span>
-        <input type="tel" class="form__section-input form__control-number" placeholder="8 (960) 900-60-90" id="tel" name="tel">
+            <span class="form__section-subtitle form__text">Телефон:*</span>
+        <input type="tel" class="form__section-input form__control" placeholder="8 (960) 900-60-90" id="tel" name="tel">
       </label>
         </li>
       </ul>
       </div>
 
       <div class="form__comment">
-      <h3 class="form__comment-title">
+      <h3 class="form__section-title">
       Комментарий
       </h3>
-       <textarea class="form__control-textarea" placeholder="Расскажите обо всех повадках кота" name="comment"></textarea>
+       <textarea class="form__control-textarea form__text" placeholder="Расскажите обо всех повадках кота" name="comment"></textarea>
        </div>
        <div class="form__aplication">
-         <h3 class="form__section-title">Дополнительно</h3>
+         <h3 class="form__aplication-title">Дополнительно</h3>
           <ul class="form__aplication-list">
               <li class="form__list-item">
                 <label class="form__aplication-checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox" checked name="aplication">
-                  <span class="form__aplication-subtitle">
+                <input class=" form__checkbox-control"  type="checkbox" checked name="aplication">
+                  <span class="form__aplication-subtitle form__text">
                     сахарозаменитель
                   </span>
                 </label>
@@ -133,8 +137,8 @@
 
               <li class="form__list-item">
                 <label class="form__aplication-checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox" name="aplication">
-                  <span class="form__aplication-subtitle">
+                <input class=" form__checkbox-control"  type="checkbox" name="aplication">
+                  <span class="form__aplication-subtitle form__text">
                     питьевая вода
                   </span>
                 </label>
@@ -142,8 +146,8 @@
 
               <li class="form__list-item">
                 <label class="form__aplication-checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox" name="aplication">
-                  <span class="form__aplication-subtitle">
+                <input class=" form__checkbox-control"  type="checkbox" name="aplication">
+                  <span class="form__aplication-subtitle form__text">
                     молоко
                   </span>
                 </label>
@@ -151,8 +155,8 @@
 
               <li class="form__list-item">
                 <label class="form__aplication-checkbox">
-                <input class="visually-hidden form__checkbox-control"  type="checkbox" name="aplication">
-                  <span class="form__aplication-subtitle">
+                <input class=" form__checkbox-control"  type="checkbox" name="aplication">
+                  <span class="form__aplication-subtitle form__text">
                     витамины
                   </span>
                 </label>
@@ -168,26 +172,26 @@
 </form>
   </main>
 
-   <footer class="main-footer">
-   <div class="main-footer__wrapper">
+  <footer class="main-footer">
     <section class="location">
-       <div class="location__wrapper">
+       <div class="location__wrapper wrapper">
         <div class="location__contacts">
            <h2 class="location__title">приглашаем
 к сотрудничеству
 дилеров!</h2>
 
-        <address class="location__adress">ул. Большая
-Конюшенная, д. 19/8
-Санкт-Петербург</address>
-
+        <span class="location__adress">ул. Большая
+Конюшенная, д. 19/8<br>
+Санкт-<br>Петербург</span>
+          </div>
          </div>
         <div class="location__image">
-         <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
+         <img src="img/location.png" alt="Карта" class="location__background" width="1470" height="400">
          </div>
 
-       </div>
+
      </section>
+     <div class="main-footer__wrapper wrapper ">
     <a href="#" class="main-footer__logo-link">
      <svg width="128" height="24" viewBox="0 0 128 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2403_695)">
@@ -246,19 +250,8 @@
   </div>
   <div class="main-footer__copiright copiright">
     <a href="#" class="copiright__logo-htmlacademy">
-    <span class="copiright__htmlacademy-title">HTML Academy</span>
+    <p class="copiright__htmlacademy-title">HTML Academy</p>
 
-    <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_2403_693)">
-<path d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z" fill="#666666"/>
-</g>
-<defs>
-<clipPath id="clip0_2403_693">
-<rect width="27" height="34" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-<span class="visually-hidden">htmlacademy__logo</span>
   </a>
 </div>
 
