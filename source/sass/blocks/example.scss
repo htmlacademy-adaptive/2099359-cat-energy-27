@@ -8,16 +8,15 @@
 // }
 
 .example__title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   margin: 0;
   padding: 0;
   padding-top: 25px;
   margin-bottom: 40px;
-
 }
 
 // .example {
@@ -27,11 +26,10 @@
 // }
 
 .example {
-  background: #EAEAEA;
+  background: hsl(0, 0%, 92%);
   width: 320px;
   height: 659px;
   margin: 0 auto;
-
 }
 
 // .example__subtitle {
@@ -49,11 +47,11 @@
 // }
 
 .example__subtitle {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #444444;
+  color: hsl(0, 0%, 27%);
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
@@ -72,8 +70,6 @@
   gap: 32px;
   padding: 0;
   margin: 0;
-
-
 }
 
 // .example__list-item {
@@ -88,12 +84,11 @@
 .example__list-item {
   box-sizing: border-box;
   text-align: center;
-  border: 1px solid #CDCDCD;
+  border: 1px solid hsl(0, 0%, 80%);
   border-radius: 3px;
   width: 124px;
   height: 56px;
   margin-bottom: 34px;
-
 }
 
 // .example__item-title {
@@ -108,16 +103,15 @@
 // }
 
 .example__item-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   padding: 0;
   margin: 0;
   padding-top: 14px;
-
 }
 
 // .example__item-subtitle {
@@ -136,13 +130,13 @@
 // }
 
 .example__item-subtitle {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
   text-align: center;
-  color: #444444;
-  background: #EAEAEA;
+  color: hsl(0, 0%, 27%);
+  background: hsl(0, 0%, 92%);
   padding: 0;
   margin: 0;
   width: 82px;
@@ -152,13 +146,13 @@
 }
 
 .example__cost {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   padding: 0;
   margin: 0;
   margin-bottom: 20px;

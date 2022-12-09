@@ -1,0 +1,45 @@
+.cards-more {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid hsl(0, 0%, 92%);
+  padding-bottom: 25px;
+}
+
+.cards-more__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 8px;
+}
+
+.cards-more__subtitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: hsl(0, 0%, 27%);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.cards-more__link {
+  background: hsl(0, 0%, 95%);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 27%);
+  width: 280px;
+  height: 40px;
+}

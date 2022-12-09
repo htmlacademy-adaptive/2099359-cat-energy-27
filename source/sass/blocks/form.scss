@@ -11,22 +11,22 @@
 
 // }
 .form__title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   margin-top: 27px;
   margin-bottom: 37px;
 }
 
 .form__subtitle {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   margin-bottom: 40px;
 }
 
@@ -88,7 +88,6 @@
   width: 201px;
   height: 36px;
   margin-bottom: 14px;
-
 }
 
 // .form__control--number {
@@ -125,7 +124,7 @@
 // }
 
 .form__control {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -144,12 +143,12 @@
 // }
 
 .form__text {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
-  color: #222222;
+  color: hsl(0, 0%, 27%);
   padding-right: 13px;
 }
 
@@ -184,11 +183,11 @@
 // }
 
 .form__section-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   margin: 0;
   padding: 0;
   margin-bottom: 35px;
@@ -284,13 +283,13 @@
 // }
 
 .form__aplication-submit {
-  background: #68B738;
-  font-family: 'Oswald', sans-serif;
+  background: hsl(97, 53%, 47%);
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 0px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
   width: 280px;
   height: 40px;
   border: none;
@@ -299,12 +298,22 @@
 }
 
 .form__aplication-desc {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   display: flex;
   justify-content: center;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   margin-bottom: 32px;
+}
+
+.form__aplication-subtitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 0%);
+  padding-right: 13px;
 }

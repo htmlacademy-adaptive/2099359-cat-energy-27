@@ -16,12 +16,11 @@
 // }
 
 .operating__title {
-  font-family: 'Oswald';
-  font-style: normal;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
@@ -34,7 +33,6 @@
   margin: 0;
   list-style-type: none;
   gap: 20px;
-
 }
 
 .operating__list-item {
@@ -59,7 +57,7 @@
 
 .operating__thumb {
   display: flex;
-  background: #68B738;
+  background: hsl(97, 53%, 47%);
   justify-content: center;
   align-items: center;
   width: 60px;
@@ -76,11 +74,11 @@
 // }
 
 .operating__item-subtitle {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #444444;
+  color: hsl(0, 0%, 27%);
   padding: 0;
   margin: 0;
   width: 199px;

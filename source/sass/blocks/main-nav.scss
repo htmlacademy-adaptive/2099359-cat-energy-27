@@ -7,8 +7,6 @@
 
 // }
 
-
-
 // .main-nav__link{
 //   position: relative;
 //   font-family: 'Oswald', sans-serif;
@@ -20,8 +18,6 @@
 
 // }
 
-
-
 // .main-nav__link-selected::after {
 //   content: "";
 //   background-color: #ffffff;
@@ -31,3 +27,32 @@
 //   width: 68px;
 //   height: 2px;
 // }
+
+
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  position: absolute;
+  width: 280px;
+  height: 196px;
+  gap: 46px;
+  padding-top: 22px;
+  align-items: center;
+  margin-top: 11px;
+  background-color: hsl(0, 0%, 100%);
+  margin-left: -282px;
+}
+
+.main-nav__wrapper {
+  display: none;
+}
+
+.main-nav__link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 0%);
+}

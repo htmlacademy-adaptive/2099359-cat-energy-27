@@ -20,8 +20,7 @@
   grid-template-columns: repeat(2, 103px);
   margin-bottom: 25px;
   padding-top: 20px;
-  border-top: 1px solid #EBEBEB;
-
+  border-top: 1px solid hsl(0, 0%, 92%);
 }
 
 // .card-advantages__title {
@@ -36,16 +35,17 @@
 // }
 
 .card-advantages__title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #222222;
+  color: hsl(0, 0%, 13%);
   padding: 0;
   margin: 0;
+  width: 76px;
 }
 
 .card-advantages__image {
@@ -62,12 +62,7 @@
   padding: 0;
   margin-top: 20px;
   margin-bottom: 33px;
-
-
 }
-
-
-
 
 // .card-advantages__term {
 //   width: 40%;
@@ -95,13 +90,13 @@
   position: relative;
   width: 40%;
   display: flex;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #444444;
+  color: hsl(0, 0%, 27%);
 }
 
 // }
@@ -116,16 +111,13 @@
 
 // }
 
-
 .card-advantages__value {
-  font-family: 'Lato';
-  font-style: normal;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #444444;
-
+  color: hsl(0, 0%, 27%);
 }
 
 // .card-advantages__link {
@@ -146,18 +138,17 @@
 // }
 
 .card-advantages__link {
-  background: #68B738;
+  background: hsl(97, 53%, 47%);
   width: 280px;
   height: 40px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 }

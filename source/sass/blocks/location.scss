@@ -7,8 +7,6 @@
 //   height: 78px;
 //   margin-top: 95px;
 
-
-
 // }
 
 // .location__title {
@@ -37,40 +35,35 @@
 // }
 
 .location__title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: #111111;
+  color: hsl(0, 0%, 7%);
   padding: 0;
   margin: 0;
   width: 139px;
 }
 
 .location__adress {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #444444;
+  color: hsl(0, 0%, 27%);
   padding: 0;
   margin: 0;
   width: 139px;
-
 }
 
 
 .location__contacts {
   display: flex;
   padding: 26px 20px;
-  background: #F2F2F2;
+  background: hsl(0, 0%, 95%);
   width: 280px;
   height: 60px;
-
-
-
-
 }
 
 .location__wrapper {
