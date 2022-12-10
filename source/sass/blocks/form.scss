@@ -1,0 +1,329 @@
+// .form__title {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 60px;
+//   line-height: 60px;
+//   color: #000000;
+//   margin: 0;
+//   padding: 0;
+//   margin-top: 73px;
+//   margin-bottom: 56px;
+
+// }
+.form__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 27px;
+  margin-bottom: 37px;
+}
+
+.form__subtitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+// .form__subtitle {
+//   font-family: 'Oswald', sans-serif;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 30px;
+//   text-transform: uppercase;
+//   color: #000000;
+//   margin: 0;
+//   padding: 0;
+//   width: 323px;
+//   margin-bottom: 66px;
+
+// }
+
+.form__card-data {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form__card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-bottom: 24px;
+}
+
+// .form__card-title {
+//   font-family: 'Oswald', sans-serif;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 30px;
+//   text-transform: uppercase;
+//   color: #444444;
+//   width: 47px;
+
+// }
+// .form__card-title {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 18px;
+//   text-transform: uppercase;
+//   color: #444444;
+//   padding-right: 13px;
+// }
+// .form__control--text  {
+//   width: 480px;
+//   height: 40px;
+//   margin-bottom: 20px;
+
+// }
+.form__control--text {
+  width: 201px;
+  height: 36px;
+  margin-bottom: 14px;
+}
+
+// .form__control--number {
+//   width: 452px;
+//   height: 40px;
+//   margin-bottom: 20px;
+// }
+
+.form__control--number {
+  width: 179px;
+  height: 36px;
+  margin-bottom: 20px;
+}
+
+// .form__control--age {
+//   width: 411px;
+//   height: 40px;
+// }
+
+.form__control--age {
+  width: 146px;
+  height: 36px;
+}
+
+// .form__control {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 30px;
+//   text-transform: uppercase;
+//   color: #444444;
+//   padding-left: 20px;
+//   margin-left: 13px;
+// }
+
+.form__control {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0;
+  padding-left: 20px;
+}
+
+// .form__text {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 30px;
+//   text-transform: uppercase;
+//   color: #444444;
+// }
+
+.form__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding-right: 13px;
+}
+
+.form__control-label {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
+  padding-right: 13px;
+}
+
+// .form__radio {
+//   width: 540px;
+//   border: 1px solid #E7E7E7;
+//   height: 152px;
+//   padding-top: 25px;
+//   padding-left: 28px;
+// }
+
+
+// .control-label {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 30px;
+//   text-transform: uppercase;
+//   color: #222222;
+// }
+
+
+// .form__section-title {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 36px;
+//   line-height: 36px;
+//   color: #000000;
+//   margin: 0;
+//   padding: 0;
+//   margin-bottom: 76px;
+// }
+
+.form__section-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+// .form__list {
+//   display: flex;
+//   gap: 78px;
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+//   margin-bottom: 78px;
+// }
+
+.form__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.form__section-input {
+  width: 189px;
+  height: 40px;
+  margin-bottom: 14px;
+}
+
+.form__section-input-tel {
+  width: 172px;
+  height: 40px;
+}
+
+// .form__control-textarea {
+//   width: 1220px;
+//   height: 174px;
+//   margin-bottom: 67px;
+// }
+
+.form__control-textarea {
+  width: 264px;
+  height: 144px;
+  margin-bottom: 22px;
+}
+
+// .form__aplication-title {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 400;
+//   font-size: 36px;
+//   line-height: 36px;
+//   color: #000000;
+//   margin: 0;
+//   padding: 0;
+//   margin-bottom: 56px;
+// }
+
+// .form__aplication {
+//   margin-bottom: 82px;
+// }
+// .form__aplication-list {
+//   display: flex;
+//   gap: 104px;
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+//   margin-bottom: 61px;
+// }
+
+.form__aplication-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  margin-bottom: 34px;
+}
+
+// .form__aplication-submit {
+// background: #68B738;
+// font-family: 'Oswald', sans-serif;
+// font-weight: 400;
+// font-size: 20px;
+// line-height: 0px;
+// text-transform: uppercase;
+// color: #FFFFFF;
+// width: 568px;
+// height: 52px;
+// border: none;
+// padding: 13px 188px;
+// margin-right: 84px;
+// }
+
+.form__aplication-submit {
+  background: #69b738;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 280px;
+  height: 40px;
+  border: none;
+  padding: 14px 44px;
+  margin-bottom: 21px;
+}
+
+.form__aplication-desc {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.form__aplication-subtitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-right: 13px;
+}

@@ -1,0 +1,120 @@
+// .addition-card {
+//   display: flex;
+//   margin-bottom: 86px;
+// }
+
+.addition-card__list {
+  display: flex;
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.addition-card__item {
+  padding-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+}
+
+// .addition-card__item:last-child {
+//   border-bottom: 1px solid #CDCDCD;
+// }
+
+// .addition-card__title {
+//   font-family: 'Oswald', sans-serif;
+// font-weight: 400;
+// font-size: 20px;
+// line-height: 20px;
+// display: flex;
+// align-items: center;
+// text-align: center;
+// text-transform: uppercase;
+// color: #222222;
+// width: 161px;
+
+// }
+
+.addition-card__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  width: 280px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 13px;
+}
+
+// .addition-card__subtitle {
+//   font-family: 'Lato', sans-serif;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 20px;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   color: #444444;
+//   width: 131px;
+// }
+
+.addition-card__subtitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #444444;
+}
+
+// .addition-card__price {
+//   font-family: 'Lato', sans-serif;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 20px;
+//   display: flex;
+//   align-items: center;
+//   color: #444444;
+//   width: 42px;
+// }
+
+.addition-card__price {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #444444;
+}
+
+.addition-card__link {
+  background: #69b738;
+  width: 280px;
+  height: 40px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 19px;
+}
