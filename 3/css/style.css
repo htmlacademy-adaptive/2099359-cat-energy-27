@@ -1,6 +1,5 @@
 a {
   text-decoration: none;
-  color: #000000;
 }
 
 html {
@@ -107,7 +106,7 @@ body {
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  color: black;
+  color: #000000;
   margin-top: 27px;
   margin-bottom: 37px;
 }
@@ -118,7 +117,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  color: black;
+  color: #000000;
   margin-bottom: 40px;
 }
 
@@ -168,7 +167,17 @@ body {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
-  color: #454545;
+  color: #444444;
+  padding-right: 13px;
+}
+
+.form__control-label {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
   padding-right: 13px;
 }
 
@@ -177,7 +186,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
-  color: black;
+  color: #000000;
   margin: 0;
   padding: 0;
   margin-bottom: 35px;
@@ -226,7 +235,7 @@ body {
   font-size: 20px;
   line-height: 0px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   width: 280px;
   height: 40px;
   border: none;
@@ -241,7 +250,7 @@ body {
   line-height: 16px;
   display: flex;
   justify-content: center;
-  color: black;
+  color: #000000;
   margin-bottom: 32px;
 }
 
@@ -251,7 +260,7 @@ body {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
-  color: black;
+  color: #000000;
   padding-right: 13px;
 }
 
@@ -260,7 +269,7 @@ body {
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
-  color: black;
+  color: #000000;
   margin: 0;
   padding: 0;
   padding-top: 25px;
@@ -279,7 +288,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #454545;
+  color: #444444;
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
@@ -296,7 +305,7 @@ body {
 .example__list-item {
   box-sizing: border-box;
   text-align: center;
-  border: 1px solid #cccccc;
+  border: 1px solid #cdcdcd;
   border-radius: 3px;
   width: 124px;
   height: 56px;
@@ -309,7 +318,7 @@ body {
   font-size: 24px;
   line-height: 24px;
   text-align: center;
-  color: black;
+  color: #000000;
   padding: 0;
   margin: 0;
   padding-top: 14px;
@@ -321,7 +330,7 @@ body {
   font-size: 12px;
   line-height: 100%;
   text-align: center;
-  color: #454545;
+  color: #444444;
   background: #ebebeb;
   padding: 0;
   margin: 0;
@@ -338,7 +347,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: black;
+  color: #000000;
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
@@ -505,7 +514,7 @@ body {
   padding: 0;
   margin: 0;
   width: 280px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ebebeb;
   padding-top: 13px;
 }
 
@@ -528,7 +537,7 @@ body {
   display: flex;
   align-items: center;
   text-align: right;
-  color: #454545;
+  color: #444444;
 }
 
 .addition-card__link {
@@ -540,7 +549,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -555,7 +564,7 @@ body {
   line-height: 24px;
   margin: 0;
   padding: 0;
-  color: black;
+  color: #000000;
   margin-bottom: 36px;
   padding-top: 25px;
 }
@@ -573,7 +582,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: #121212;
+  color: #111111;
   padding: 0;
   margin: 0;
   width: 139px;
@@ -584,7 +593,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #454545;
+  color: #444444;
   padding: 0;
   margin: 0;
   width: 139px;
@@ -621,7 +630,7 @@ body {
   width: 280px;
   height: 274px;
   z-index: -1;
-  background-color: rgba(104, 183, 56, 0.85);
+  background-color: #68b738d9;
 }
 
 .addition-gift__thumb {
@@ -637,7 +646,7 @@ body {
   align-items: center;
   text-align: center;
   width: 161px;
-  color: white;
+  color: #ffffff;
 }
 
 .card-advantages {
@@ -656,7 +665,7 @@ body {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #212121;
+  color: #222222;
   padding: 0;
   margin: 0;
   width: 76px;
@@ -688,7 +697,7 @@ body {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #454545;
+  color: #444444;
 }
 
 .card-advantages__value {
@@ -697,11 +706,11 @@ body {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #454545;
+  color: #444444;
 }
 
 .card-advantages__link {
-  background: #69b738;
+  background: #68b738;
   width: 280px;
   height: 40px;
   font-family: "Oswald", sans-serif;
@@ -709,7 +718,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -727,7 +736,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #454545;
+  color: #444444;
   padding: 0;
   margin: 0;
   width: 163px;
@@ -834,7 +843,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: #121212;
+  color: #111111;
   margin-bottom: 8px;
 }
 
@@ -844,7 +853,7 @@ body {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #454545;
+  color: #444444;
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
@@ -860,7 +869,7 @@ body {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  color: #454545;
+  color: #444444;
   width: 280px;
   height: 40px;
 }
