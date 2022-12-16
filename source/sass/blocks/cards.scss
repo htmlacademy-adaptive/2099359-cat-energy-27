@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $tablet-width) {
+        display: grid;
+        grid-template-columns: 324px 324px;
+        grid-column-gap: 60px;
+        margin-top: 90px;
+    }
+
+    @media (min-width: $desktop-width) {
+        grid-template-columns: repeat(4, 245px);
+        grid-column-gap: 80px;
+        margin-top: 85px;
+    }
+}
