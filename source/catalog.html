@@ -4,278 +4,279 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи-Каталог</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="main-header">
-    <a href="#" class="main-header__logo-mobile">
-      <img src="img/logo-mobile.svg" alt="Логотип." width="33" height="37">
-    </a>
+    <div class="main-header__wrapper">
+      <div class="main-header__logo">
+        <a href="index.html" class="main-header__logo-image">
+          <img src="img/logo-mobile.svg" alt="Логотип." width="33" height="37">
+        </a>
 
-    <a href="#" class="main-header__logo-mobile-2">
-      <img src="img/logo-mobile-2.svg" alt="Логотип." width="101" height="18">
-    </a>
-
-
-    <!-- <a href="index.html" class="main-header__logo">
-
-         <img src="img/logo-desktop.svg" alt="Логотип" width="203" height="59">
-       </a> -->
-
-
-    <nav class="main-nav">
-
-
-      <button class="main-nav__toggle" type="button">
-
-
+        <a href="#" class="main-header__logo-text">
+          <img src="img/logo-mobile-2.svg" alt="Логотип." width="101" height="18">
+        </a>
+      </div>
+      <button class="main-header__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
-
       </button>
-      <!-- <div class="main-nav__wrapper wrapper">
-           <ul class="main-nav__list site-list">
-             <li class="site-list__item site-list__item--current">
-               <a class="main-nav__link main-nav__link-selected">
-                 Главная
-               </a>
-             </li>
+      <nav class="main-nav">
 
-              <li class="site-list__item">
-               <a href="catalog.html" class=main-nav__link">
-                 Каталог продукции
-               </a>
-             </li>
+        <div class="main-nav__wrapper wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a class="main-nav__link main-nav__link-selected">
+                Главная
+              </a>
+            </li>
 
-              <li class="site-list__item">
-               <a href="#" class="main-nav__link">
-                 Подбор программы
-               </a>
+            <li class="site-lisFt__item">
+              <a href="catalog.html" class="main-nav__link">
+                Каталог продукции
+              </a>
+            </li>
 
-             </li>
+            <li class="site-list__item">
+              <a href="#" class="main-nav__link">
+                Подбор программы
+              </a>
+            </li>
 
-
-           </ul>
-         </div> -->
-    </nav>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
-  <main class="main-wrapper wrapper">
-    <h1 class="main-title">Каталог продукции</h1>
+  <main class="main-wrapper">
     <div class="cards">
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image" width="68" height="86"></a>
+      <div class="page-container">
+        <h1 class="cards__title">Каталог продукции</h1>
+        <div class="cards__advantages">
+          <div class="card-advantages">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image" width="68" height="86"></a>
+            </div>
+            <div class="card-advantages__info">
+              <h2 class="card-advantages__title"><a class="card-advantages__title-link" href="#">Cat Energy PRO
+                  500 г</a></h2>
+
+              <dl class="card-advantages__list">
+                <dt class="card-advantages__term">Масса</dt>
+                <dd class="card-advantages__value">500 г</dd>
+
+                <dt class="card-advantages__term">Вкус</dt>
+                <dd class="card-advantages__value">Курица</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+                <dd class="card-advantages__value">700 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+          </div>
+
+          <div class="card-advantages">
+
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image"></a>
+            </div>
+            <div class="card-advantages__info">
+              <h2 class="card-advantages__title"><a class="card-advantages__title-link" href="#">Cat Energy PRO
+                  1000 г</a></h2>
+              <dl class="card-advantages__list">
+                <dt class="card-advantages__term">Масса</dt>
+                <dd class="card-advantages__value">1000 г</dd>
+
+                <dt class="card-advantages__term">Вкус</dt>
+                <dd class="card-advantages__value">Курица</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+                <dd class="card-advantages__value">1000 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+
+          </div>
+
+          <div class="card-advantages">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image"></a>
+            </div>
+            <div class="card-advantages__info">
+              <h2 class="card-advantages__title"><a href="#" class="card-advantages__title-link">Cat Energy PRO
+                  500 г</a></h2>
+              <dl class="card-advantages__list">
+                <dt class="card-advantages__term">Масса</dt>
+                <dd class="card-advantages__value">500 г</dd>
+
+                <dt class="card-advantages__term">Вкус</dt>
+                <dd class="card-advantages__value">Рыба</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+                <dd class="card-advantages__value">700 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+          </div>
+
+          <div class="card-advantages">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image"></a>
+            </div>
+            <div class="card-advantages__info">
+              <h2 class="card-advantages__title"><a href="#" class="card-advantages__title-link">Cat Energy PRO
+                  1000 г</a></h2>
+              <dl class="card-advantages__list">
+
+                <dt class="card-advantages__term">Масса</dt>
+
+                <dd class="card-advantages__value">1000 г</dd>
+
+
+                <dt class="card-advantages__term">Вкус</dt>
+
+                <dd class="card-advantages__value">Рыба</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+
+                <dd class="card-advantages__value">1000 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+          </div>
+
+          <div class="card-advantages">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image"></a>
+            </div>
+            <div class="card-advantages__info">
+              <h2 class="card-advantages__title"><a class="card-advantages__title-link" href="#">Cat Energy slim
+                  500 г</a></h2>
+              <dl class="card-advantages__list">
+                <dt class="card-advantages__term">Масса</dt>
+                <dd class="card-advantages__value">500 г</dd>
+
+                <dt class="card-advantages__term">Вкус</dt>
+                <dd class="card-advantages__value">Гречка</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+                <dd class="card-advantages__value">400 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+          </div>
+
+
+          <div class="card-advantages">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image"></a>
+            </div>
+            <div class="card-advantages__info">
+
+              <h2 class="card-advantages__title"><a href="#" class="card-advantages__title-link">Cat Energy slim
+                  1000 г</a></h2>
+              <dl class="card-advantages__list">
+                <dt class="card-advantages__term">Масса</dt>
+                <dd class="card-advantages__value">1000 г</dd>
+
+                <dt class="card-advantages__term">Вкус</dt>
+                <dd class="card-advantages__value">Гречка</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+                <dd class="card-advantages__value">700 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+          </div>
+
+          <div class="card-advantages">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="card-image"></a>
+            </div>
+            <div class="card-advantages__info">
+              <h2 class="card-advantages__title"><a href="#" class="card-advantages__title-link">Cat Energy slim
+                  500 г</a></h2>
+
+
+              <dl class="card-advantages__list">
+                <dt class="card-advantages__term">Масса</dt>
+                <dd class="card-advantages__value">500 г</dd>
+
+                <dt class="card-advantages__term">Вкус</dt>
+                <dd class="card-advantages__value">Рис</dd>
+
+                <dt class="card-advantages__term">Цена</dt>
+                <dd class="card-advantages__value">500 ₽</dd>
+              </dl>
+            </div>
+            <a href="form.html" class="card-advantages__link">заказать</a>
+          </div>
+          <div class="cards-more">
+            <div class="card-advantages__image">
+              <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
+                  class="cards-more__image"></a>
+            </div>
+            <div class="cards-more__info">
+              <h2 class="cards-more__title"><a href="#" class="cards-more__title">Показать еще
+                  100500 товаров</a></h2>
+              <p class="cards-more__subtitle">На самом деле вкусов гораздо больше!</p>
+            </div>
+            <a href="form.html" class="cards-more__link">показать все</a>
+          </div>
         </div>
-        <div class="card-advantages__info">
-          <h2 class="card-advantages__title"><a class="card-advantages__title" href="#" >Cat Energy PRO
-              500 г</a></h2>
-
-          <dl class="card-advantages__list">
-            <dt class="card-advantages__term">Масса</dt>
-            <dd class="card-advantages__value">500 г</dd>
-
-            <dt class="card-advantages__term">Вкус</dt>
-            <dd class="card-advantages__value">Курица</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-            <dd class="card-advantages__value">700 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-      </div>
-
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image"></a>
-        </div>
-        <div class="card-advantages__info">
-          <h2 class="card-advantages__title"><a class="card-advantages__title" href="#">Cat Energy PRO
-              1000 г</a></h2>
-          <dl class="card-advantages__list">
-            <dt class="card-advantages__term">Масса</dt>
-            <dd class="card-advantages__value">1000 г</dd>
-
-            <dt class="card-advantages__term">Вкус</dt>
-            <dd class="card-advantages__value">Курица</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-            <dd class="card-advantages__value">1000 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-
-      </div>
-
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image"></a>
-        </div>
-        <div class="card-advantages__info">
-          <h2 class="card-advantages__title"><a href="#" class="card-advantages__title">Cat Energy PRO
-              500 г</a></h2>
-          <dl class="card-advantages__list">
-            <dt class="card-advantages__term">Масса</dt>
-            <dd class="card-advantages__value">500 г</dd>
-
-            <dt class="card-advantages__term">Вкус</dt>
-            <dd class="card-advantages__value">Рыба</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-            <dd class="card-advantages__value">700 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-      </div>
-
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image"></a>
-        </div>
-        <div class="card-advantages__info">
-          <h2 class="card-advantages__title"><a href="#" class="card-advantages__title" >Cat Energy PRO
-              1000 г</a></h2>
-          <dl class="card-advantages__list">
-
-            <dt class="card-advantages__term">Масса</dt>
-
-            <dd class="card-advantages__value">1000 г</dd>
-
-
-            <dt class="card-advantages__term">Вкус</dt>
-
-            <dd class="card-advantages__value">Рыба</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-
-            <dd class="card-advantages__value">1000 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-      </div>
-
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image"></a>
-        </div>
-        <div class="card-advantages__info">
-          <h2 class="card-advantages__title"><a class="card-advantages__title" href="#">Cat Energy slim
-              500 г</a></h2>
-          <dl class="card-advantages__list">
-            <dt class="card-advantages__term">Масса</dt>
-            <dd class="card-advantages__value">500 г</dd>
-
-            <dt class="card-advantages__term">Вкус</dt>
-            <dd class="card-advantages__value">Гречка</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-            <dd class="card-advantages__value">400 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-      </div>
-
-
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image"></a>
-        </div>
-        <div class="card-advantages__info">
-
-          <h2 class="card-advantages__title"><a href="#" class="card-advantages__title">Cat Energy slim
-              1000 г</a></h2>
-          <dl class="card-advantages__list">
-            <dt class="card-advantages__term">Масса</dt>
-            <dd class="card-advantages__value">1000 г</dd>
-
-            <dt class="card-advantages__term">Вкус</dt>
-            <dd class="card-advantages__value">Гречка</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-            <dd class="card-advantages__value">700 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-      </div>
-
-      <div class="card-advantages">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="card-image"></a>
-        </div>
-        <div class="card-advantages__info">
-          <h2 class="card-advantages__title"><a href="#" class="card-advantages__title">Cat Energy slim
-              500 г</a></h2>
-
-
-          <dl class="card-advantages__list">
-            <dt class="card-advantages__term">Масса</dt>
-            <dd class="card-advantages__value">500 г</dd>
-
-            <dt class="card-advantages__term">Вкус</dt>
-            <dd class="card-advantages__value">Рис</dd>
-
-            <dt class="card-advantages__term">Цена</dt>
-            <dd class="card-advantages__value">500 ₽</dd>
-          </dl>
-        </div>
-        <a href="form.html" class="card-advantages__link">заказать</a>
-      </div>
-      <div class="cards-more">
-        <div class="card-advantages__image">
-          <a href="#" class="card-advantages__link-image"><img src="img/catalog-1-mobile.png" alt="Товар."
-              class="cards-more__image"></a>
-        </div>
-        <div class="cards-more__info">
-          <h2 class="cards-more__title"><a href="#"  class="cards-more__title">Показать еще
-              100500 товаров</a></h2>
-          <p class="cards-more__subtitle">На самом деле вкусов гораздо больше!</p>
-        </div>
-        <a href="form.html" class="cards-more__link">показать все</a>
       </div>
     </div>
+
     <section class="addition">
-      <div class="addition__wrapper wrapper">
-        <h1 class="addition__title">Дополнительные товары</h1>
+      <div class="addition__title-wrapper title__wrapper">
+        <div class="page-container">
+          <h1 class="addition__title">Дополнительные товары</h1>
+        </div>
+      </div>
+      <div class="addition__wrapper page-container">
         <div class="addition-card">
           <ul class="addition-card__list">
-            <h3 class="addition-card__title">Сахарозаменитель</h3>
             <li class="addition-card__item">
-              <!-- <h3 class="addition-card__title">Сахарозаменитель</h3> -->
-              <p class="addition-card__subtitle">1 упаковка (100 г)</p>
-              <b class="addition-card__price">200 ₽</b>
-              <!-- <a href="#" class="addition-card__link">заказать</a> -->
+              <h3 class="addition-card__title">Сахарозаменитель</h3>
+              <div class="addition-card__info">
+                <p class="addition-card__subtitle">1 упаковка (100 г)</p>
+                <b class="addition-card__price">200 ₽</b>
+              </div>
+              <a href="#" class="addition-card__link">заказать</a>
             </li>
-            <a href="form.html" class="addition-card__link">заказать</a>
-            <h3 class="addition-card__title">Питьевая вода</h3>
             <li class="addition-card__item">
-              <!-- <h3 class="addition-card__title">Питьевая вода</h3> -->
-              <p class="addition-card__subtitle">5 литров</p>
-              <b class="addition-card__price">50 ₽</b>
-              <!-- <a href="#" class="addition-card__link">заказать</a> -->
+              <h3 class="addition-card__title">Питьевая вода</h3>
+              <div class="addition-card__info">
+                <p class="addition-card__subtitle">5 литров</p>
+                <b class="addition-card__price">50 ₽</b>
+              </div>
+              <a href="form.html" class="addition-card__link">заказать</a>
             </li>
-            <a href="form.html" class="addition-card__link">заказать</a>
-            <h3 class="addition-card__title">молоко</h3>
             <li class="addition-card__item">
-              <!-- <h3 class="addition-card__title">молоко</h3> -->
-              <p class="addition-card__subtitle">1 литр</p>
-              <b class="addition-card__price">100 ₽</b>
-              <!-- <a href="#" class="addition-card__link">заказать</a> -->
+              <h3 class="addition-card__title">молоко</h3>
+              <div class="addition-card__info">
+                <p class="addition-card__subtitle">1 литр</p>
+                <b class="addition-card__price">100 ₽</b>
+              </div>
+              <a href="#" class="addition-card__link">заказать</a>
             </li>
-            <a href="#" class="addition-card__link">заказать</a>
-            <h3 class="addition-card__title">витамины</h3>
             <li class="addition-card__item">
-              <!-- <h3 class="addition-card__title">витамины</h3> -->
-              <p class="addition-card__subtitle">1 упаковка (30 г)</p>
-              <b class="addition-card__price">300 ₽</b>
-              <!-- <a href="#" class="addition-card__link">заказать</a> -->
+              <h3 class="addition-card__title">витамины</h3>
+              <div class="addition-card__info">
+                <p class="addition-card__subtitle">1 упаковка (30 г)</p>
+                <b class="addition-card__price">300 ₽</b>
+              </div>
+              <a href="#" class="addition-card__link">заказать</a>
             </li>
-            <a href="#" class="addition-card__link">заказать</a>
           </ul>
           <div class="addition-gift">
             <svg class="addition-gift__thumb" width="80" height="84" viewBox="0 0 80 84" fill="none"
@@ -307,11 +308,17 @@
         </div>
       </div>
     </section>
+    </div>
   </main>
   <footer class="main-footer">
     <section class="location">
-      <div class="location__wrapper ">
-        <div class="location__contacts">
+      <div class="location__image">
+        <!-- <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
+       </div> -->
+        <!-- <img src="img/location-mobile.png" alt="Карта" class="location__background" width="320" height="362"> -->
+      </div>
+      <div class="location__wrapper page-container">
+        <div class="location__contacts location__background">
           <h2 class="location__title">приглашаем
             к сотрудничеству
             дилеров!</h2>
@@ -321,16 +328,9 @@
             Санкт-<br>Петербург</span>
         </div>
 
-        <div class="location__image">
-          <!-- <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
-         </div> -->
-          <img src="img/location-mobile.png" alt="Карта" class="location__background" width="320" height="362">
-        </div>
       </div>
-
-
     </section>
-    <div class="main-footer__wrapper ">
+    <div class="main-footer__wrapper">
 
       <a href="#" class="main-footer__logo-link">
         <svg width="128" height="24" viewBox="0 0 128 24" fill="none" xmlns="http://www.w3.org/2000/svg">

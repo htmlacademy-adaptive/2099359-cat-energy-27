@@ -1,6 +1,17 @@
 .opportunities-cards__wrapper {
-  height: 552px;
+  min-height: 552px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    gap: 80px;
+    height: 374px;
+    margin-bottom: 70px;
+  }
 }

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../img/addition-gift.png");
+  background: url("../img/addition-gift.png"), no-repeat;
   width: 280px;
   height: 274px;
   z-index: -1;
@@ -16,11 +16,48 @@
     height: 274px;
     z-index: -1;
     background-color: #68b738d9;
+
+    @media (min-width: $tablet-width) {
+      width: 710px;
+      height: 200px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 247px;
+      height: 262px;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 710px;
+    flex-direction: row;
+    justify-content: space-between;
+    background: url("../img/addition-gift-tablet.png");
+    height: 200px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    background: url("../img/addition-gift.png"), no-repeat;
+    width: 308px;
+    height: 262px;
+    z-index: -1;
+    position: relative;
   }
 }
 
 .addition-gift__thumb {
   padding-top: 52px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+    padding-left: 92px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 52px;
+    padding-left: 0;
+  }
 }
 
 .addition-gift__info {
@@ -33,4 +70,12 @@
   text-align: center;
   width: 161px;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 124px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 0;
+  }
 }

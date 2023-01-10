@@ -4,54 +4,56 @@
 <head>
   <meta charset="utf-8">
   <title>Кэт энерджи:form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="main-header">
-    <a href="index.html" class="main-header__logo-mobile">
-      <img src="img/logo-mobile.svg" alt="Логотип." width="33" height="37">
-    </a>
+    <div class="main-header__wrapper">
+      <div class="main-header__logo">
+        <a href="index.html" class="main-header__logo-image">
+          <img src="img/logo-mobile.svg" alt="Логотип." width="33" height="37">
+        </a>
 
-    <a href="#" class="main-header__logo-mobile-2">
-      <img src="img/logo-mobile-2.svg" alt="Логотип." width="101" height="18">
-
-    </a>
-    <!-- <a href="index.html" class="main-header__logo">
-         <img src="img/logo-desktop.svg" alt="Логотип" width="203" height="59">
-       </a> -->
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
+        <a href="#" class="main-header__logo-text">
+          <img src="img/logo-mobile-2.svg" alt="Логотип." width="101" height="18">
+        </a>
+      </div>
+      <button class="main-header__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-      <!-- <div class="main-nav__wrapper wrapper">
-           <ul class="main-nav__list site-list">
-             <li class="site-list__item site-list__item--current">
-               <a class="main-nav__link main-nav__link-selected">
-                 Главная
-               </a>
-             </li>
+      <nav class="main-nav">
 
-              <li class="site-list__item">
-               <a href="catalog.html" class="main-nav__link">
-                 Каталог продукции
-               </a>
-             </li>
+        <div class="main-nav__wrapper wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a class="main-nav__link main-nav__link-selected">
+                Главная
+              </a>
+            </li>
 
-              <li class="site-list__item">
-               <a href="#" class="main-nav__link">
-                 Подбор программы
-               </a>
-             </li>
+            <li class="site-lisFt__item">
+              <a href="catalog.html" class="main-nav__link">
+                Каталог продукции
+              </a>
+            </li>
 
-           </ul>
-         </div> -->
-    </nav>
+            <li class="site-list__item">
+              <a href="#" class="main-nav__link">
+                Подбор программы
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="main-holder">
     <form action="https://echo.htmlacademy.ru" class="form" method="get">
-      <div class="form__holder wrapper">
+      <div class="form__holder wrapper page-container">
         <header class="form__header">
           <h1 class="form__title">Подбор программы</h1>
           <p class="form__subtitle">Заполните анкету, и мы подберем
@@ -59,139 +61,166 @@
         </header>
       </div>
       <section class="form-main">
-        <div class="form__wrapper wrapper">
-          <div class="form__card-data">
-            <div class="form__card">
-              <label for="data-name" class="form__label form__data-label">
-                <span class="form__card-title form__text">ИМЯ:*</span>
-                <input type="text" class="form__control form__control--text" placeholder="барсик" id="data-name"
-                  name="data-name">
-              </label>
+        <div class="form__wrapper">
+          <div class="page-container">
+            <div class="form__card-data">
+              <div class="form__card">
+                <label for="data-name" class="form__label form__data-label">
+                  <span class="form__card-title form__text">ИМЯ:*</span>
+                  <input type="text" class="form__control form__control--text" placeholder="барсик" id="data-name"
+                    name="data-name">
+                </label>
 
-              <label for="weight" class="form__label form__data-label ">
-                <span class="form__card-title form__text">Вес (кг):*</span>
-                <input type="number" class="form__control form__control--number " placeholder="7" id="weight"
-                  name="weight">
-              </label>
+                <label for="weight" class="form__label form__data-label ">
+                  <span class="form__card-title form__text">Вес (кг):*</span>
+                  <input type="number" class="form__control form__control--number " placeholder="7" id="weight"
+                    name="weight">
+                </label>
 
 
-              <label for="age" class="form__label form__data-label">
-                <span class="form__card-title form__text">Возраст (лет):</span>
-                <input type="number" class="form__control  form__control--age" placeholder="7" id="age" name="age">
-              </label>
+                <label for="age" class="form__label form__data-label">
+                  <span class="form__card-title form__text">Возраст (лет):</span>
+                  <input type="number" class="form__control  form__control--age" placeholder="7" id="age" name="age">
+                </label>
+              </div>
+              <div class="form__radio">
+                <ul class="form__list-radio">
+                  <li class="form__list-item">
+                    <label class=" form__label-radio" for="slim">
+                      <input class=" form__radio-input" type="radio" checked id="slim" name="choice-service"
+                        value="slim">
+                      <span class="form__control-label">
+                        похудение
+                      </span>
+                    </label>
+                  </li>
+
+                  <li class="form__list-item">
+                    <label class=" form__label-radio" for="weight-pro">
+                      <input class="form__radio-input" type="radio" id="weight-pro" name="choice-service"
+                        value="weight-pro">
+                      <span class="form__control-label">
+                        Набор массы
+                      </span>
+                    </label>
+                  </li>
+
+                  <li class="form__list-item">
+                    <label class=" form__radio-label" for="no">
+                      <input class=" form__radio-input" type="radio" id="no" name="choice-service" value="advice">
+                      <span class="form__control-label">
+                        Не знаю (Нужен ваш совет)
+                      </span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="form__radio">
-              <ul class="form__list-radio">
+          </div>
+          <div class="form__section">
+            <div class="form__section-title-wrapper title__wrapper">
+              <div class="page-container">
+                <h3 class="form__section-title">Контактные данные (владельца кота)</h3>
+              </div>
+            </div>
+            <div class="form__section-wrapper page-container">
+              <ul class="form__list">
                 <li class="form__list-item">
-                  <label class=" form__label-radio" for="slim">
-                    <input class=" form__radio-input" type="radio" checked id="slim" name="choice-service" value="slim">
-                    <span class="form__control-label">
-                      похудение
-                    </span>
+                  <label for="email" class="form__label form__section-label">
+                    <span class="form__section-subtitle form__text">E-mail:*</span>
+                    <input type="email" class="form__section-input form__control" placeholder="кuklachev@gmail.com"
+                      id="email" name="email">
                   </label>
                 </li>
-
                 <li class="form__list-item">
-                  <label class=" form__label-radio" for="weight-pro">
-                    <input class="form__radio-input" type="radio" id="weight-pro" name="choice-service"
-                      value="weight-pro">
-                    <span class="form__control-label">
-                      Набор массы
-                    </span>
-                  </label>
-                </li>
-
-                <li class="form__list-item">
-                  <label class=" form__radio-label" for="no">
-                    <input class=" form__radio-input" type="radio" id="no" name="choice-service" value="advice">
-                    <span class="form__control-label">
-                      Не знаю (Нужен ваш совет)
-                    </span>
+                  <label for="tel" class="form__section-label form__label">
+                    <span class="form__section-subtitle form__text">Телефон:*</span>
+                    <input type="tel" class="form__section-input form__control form__section-input-tel"
+                      placeholder="8 (960) 900-60-90" id="tel" name="tel">
                   </label>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="form__section">
-            <h3 class="form__section-title">Контактные данные (владельца кота)</h3>
-            <ul class="form__list">
-              <li class="form__list-item">
-                <label for="email" class="form__label form__section-label">
-                  <span class="form__section-subtitle form__text">E-mail:*</span>
-                  <input type="email" class="form__section-input form__control" placeholder="кuklachev@gmail.com"
-                    id="email" name="email">
-                </label>
-              </li>
-              <li class="form__list-item">
-                <label for="tel" class="form__section-label form__label">
-                  <span class="form__section-subtitle form__text">Телефон:*</span>
-                  <input type="tel" class="form__section-input form__control form__section-input-tel"
-                    placeholder="8 (960) 900-60-90" id="tel" name="tel">
-                </label>
-              </li>
-            </ul>
-          </div>
 
           <div class="form__comment">
-            <h3 class="form__section-title">
-              Комментарий
-            </h3>
-            <textarea class="form__control-textarea form__text" placeholder="Расскажите обо всех повадках кота"
-              name="comment"></textarea>
+            <div class="form__comment-title-wrapper title__wrapper">
+              <div class="page-container">
+                <h3 class="form__section-title">
+                  Комментарий
+                </h3>
+              </div>
+            </div>
+            <div class="form__comment-wrapper page-container">
+              <textarea class="form__control-textarea form__text" placeholder="Расскажите обо всех повадках кота"
+                name="comment"></textarea>
+            </div>
           </div>
           <div class="form__aplication">
-            <h3 class="form__aplication-title form__section-title">Дополнительно</h3>
-            <ul class="form__aplication-list">
-              <li class="form__list-item">
-                <label class="form__aplication-checkbox">
-                  <input class=" form__checkbox-control" type="checkbox" checked name="aplication">
-                  <span class="form__aplication-subtitle form__text">
-                    сахарозаменитель
-                  </span>
-                </label>
-              </li>
+            <div class="form__aplication-title-wrapper title__wrapper">
+              <div class="page-container">
+                <h3 class="form__aplication-title form__section-title">Дополнительно</h3>
+              </div>
+            </div>
+            <div class="form__aplication-wrapper page-container">
+              <ul class="form__aplication-list">
+                <li class="form__list-item">
+                  <label class="form__aplication-checkbox">
+                    <input class=" form__checkbox-control" type="checkbox" checked name="aplication">
+                    <span class="form__aplication-subtitle form__text">
+                      сахарозаменитель
+                    </span>
+                  </label>
+                </li>
 
-              <li class="form__list-item">
-                <label class="form__aplication-checkbox">
-                  <input class=" form__checkbox-control" type="checkbox" name="aplication">
-                  <span class="form__aplication-subtitle form__text">
-                    питьевая вода
-                  </span>
-                </label>
-              </li>
+                <li class="form__list-item">
+                  <label class="form__aplication-checkbox">
+                    <input class=" form__checkbox-control" type="checkbox" name="aplication">
+                    <span class="form__aplication-subtitle form__text">
+                      питьевая вода
+                    </span>
+                  </label>
+                </li>
 
-              <li class="form__list-item">
-                <label class="form__aplication-checkbox">
-                  <input class=" form__checkbox-control" type="checkbox" name="aplication">
-                  <span class="form__aplication-subtitle form__text">
-                    молоко
-                  </span>
-                </label>
-              </li>
+                <li class="form__list-item">
+                  <label class="form__aplication-checkbox">
+                    <input class=" form__checkbox-control" type="checkbox" name="aplication">
+                    <span class="form__aplication-subtitle form__text">
+                      молоко
+                    </span>
+                  </label>
+                </li>
 
-              <li class="form__list-item">
-                <label class="form__aplication-checkbox">
-                  <input class=" form__checkbox-control" type="checkbox" name="aplication">
-                  <span class="form__aplication-subtitle form__text">
-                    витамины
-                  </span>
-                </label>
-              </li>
-            </ul>
-            <button class="form__aplication-submit" type="submit">
-              отправить заявку
-            </button>
-            <span class="form__aplication-desc">* — Обязательные поля</span>
+                <li class="form__list-item">
+                  <label class="form__aplication-checkbox">
+                    <input class=" form__checkbox-control" type="checkbox" name="aplication">
+                    <span class="form__aplication-subtitle form__text">
+                      витамины
+                    </span>
+                  </label>
+                </li>
+              </ul>
+              <button class="form__aplication-submit" type="submit">
+                отправить заявку
+              </button>
+              <span class="form__aplication-desc">* — Обязательные поля</span>
+            </div>
           </div>
         </div>
       </section>
     </form>
+    </div>
   </main>
 
   <footer class="main-footer">
     <section class="location">
-      <div class="location__wrapper ">
-        <div class="location__contacts">
+      <div class="location__image">
+        <!-- <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
+       </div> -->
+        <!-- <img src="img/location-mobile.png" alt="Карта" class="location__background" width="320" height="362"> -->
+      </div>
+      <div class="location__wrapper page-container">
+        <div class="location__contacts location__background">
           <h2 class="location__title">приглашаем
             к сотрудничеству
             дилеров!</h2>
@@ -201,16 +230,9 @@
             Санкт-<br>Петербург</span>
         </div>
 
-        <div class="location__image">
-          <!-- <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
-         </div> -->
-          <img src="img/location-mobile.png" alt="Карта" class="location__background" width="320" height="362">
-        </div>
       </div>
-
-
     </section>
-    <div class="main-footer__wrapper ">
+    <div class="main-footer__wrapper">
 
       <a href="#" class="main-footer__logo-link">
         <svg width="128" height="24" viewBox="0 0 128 24" fill="none" xmlns="http://www.w3.org/2000/svg">

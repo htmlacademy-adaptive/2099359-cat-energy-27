@@ -1,7 +1,9 @@
-// .addition-card {
-//   display: flex;
-//   margin-bottom: 86px;
-// }
+@media (min-width: $desktop-width) {
+  .addition-card {
+    display: flex;
+    margin-bottom: 86px;
+  }
+}
 
 .addition-card__list {
   display: flex;
@@ -10,6 +12,14 @@
   padding: 0;
   flex-direction: column;
   margin-bottom: 35px;
+
+  @media (min-width: $tablet-width) {
+    width: 710px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+  }
 }
 
 .addition-card__item {
@@ -20,25 +30,25 @@
   width: 280px;
   flex-wrap: wrap;
   padding-bottom: 12px;
+
+  @media (min-width: $tablet-width) {
+    width: 632px;
+    padding-left: 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-wrap: nowrap;
+    padding: 0;
+    width: 894px;
+    margin-bottom: 17px;
+  }
 }
 
-// .addition-card__item:last-child {
-//   border-bottom: 1px solid #CDCDCD;
-// }
-
-// .addition-card__title {
-//   font-family: 'Oswald', sans-serif;
-// font-weight: 400;
-// font-size: 20px;
-// line-height: 20px;
-// display: flex;
-// align-items: center;
-// text-align: center;
-// text-transform: uppercase;
-// color: #222222;
-// width: 161px;
-
-// }
+@media (min-width: $desktop-width) {
+  .addition-card__item:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
+}
 
 .addition-card__title {
   font-family: "Oswald", sans-serif;
@@ -55,19 +65,18 @@
   width: 280px;
   border-top: 1px solid #ebebeb;
   padding-top: 13px;
-}
 
-// .addition-card__subtitle {
-//   font-family: 'Lato', sans-serif;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 20px;
-//   display: flex;
-//   align-items: center;
-//   text-align: center;
-//   color: #444444;
-//   width: 131px;
-// }
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 161px;
+  }
+}
 
 .addition-card__subtitle {
   font-family: "Lato", sans-serif;
@@ -78,18 +87,12 @@
   align-items: center;
   text-align: center;
   color: #444444;
-}
 
-// .addition-card__price {
-//   font-family: 'Lato', sans-serif;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 20px;
-//   display: flex;
-//   align-items: center;
-//   color: #444444;
-//   width: 42px;
-// }
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 
 .addition-card__price {
   font-family: "Lato", sans-serif;
@@ -100,6 +103,11 @@
   align-items: center;
   text-align: right;
   color: #444444;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .addition-card__link {
@@ -117,4 +125,24 @@
   align-items: center;
   flex-direction: row;
   margin-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    width: 632px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 244px;
+    margin-bottom: 0;
+  }
+}
+
+.addition-card__info {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    gap: 49px;
+    width: 223px;
+  }
 }
