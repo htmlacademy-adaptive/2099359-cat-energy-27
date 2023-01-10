@@ -3,7 +3,6 @@
   grid-template-columns: repeat(2, 103px);
   margin-bottom: 25px;
   padding-top: 20px;
-  border-top: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -26,7 +25,7 @@
   }
 }
 
-.card-advantages__title {
+.card-advantages__title-link {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -46,7 +45,7 @@
     font-size: 20px;
     line-height: 24px;
     margin-top: 24px;
-    padding-left: 27px;
+    padding-left: 51px;
   }
 
   @media (min-width: $desktop-width) {
@@ -66,7 +65,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  width: 175px;
+  width: 140px;
   margin: 0;
   padding: 0;
   margin-top: 20px;
@@ -167,5 +166,17 @@
 
   @media (min-width: $desktop-width) {
     width: 168px;
+  }
+}
+
+.card-advantages__info {
+  width: 140px;
+
+  @media (min-width: $tablet-width) {
+    width: 250px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
   }
 }

@@ -1,15 +1,15 @@
 .operating {
   margin-top: 20px;
-  height: 364px;
+  min-height: 364px;
   margin-bottom: 50px;
 
   @media (min-width: $tablet-width) {
-    height: 583px;
+    min-height: 583px;
     margin-bottom: 47px;
   }
 
   @media (min-width: $desktop-width) {
-    height: 280px;
+    min-height: 280px;
     margin-bottom: 69px;
   }
 }

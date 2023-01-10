@@ -37,7 +37,7 @@
     font-size: 16px;
     line-height: 20px;
     width: 159px;
-    height: 80px;
+    min-height: 80px;
   }
 
   @media (min-width: $desktop-width) {
@@ -48,15 +48,16 @@
 .location__contacts {
   display: flex;
   padding: 26px 20px;
+  min-height: 60px;
   background: #f2f2f2;
-  height: 60px;
+
 
   @media (min-width: $tablet-width) {
-    background: #ffffff;
+    background: #f2f2f2;
     margin: 0 auto;
     justify-content: space-between;
     padding: 60px 70px;
-    height: 80px;
+    min-height: 80px;
   }
 
   @media (min-width: $desktop-width) {
@@ -65,55 +66,64 @@
     padding: 60px 80px;
     background: #ffffff;
     width: 405px;
-    height: 78px;
+    min-height: 78px;
     margin-top: 95px;
     margin-left: 108px;
+  }
+}
+
+.location__background {
+  background: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    background: #ffffff;
   }
 }
 
 .location__wrapper {
   width: 320px;
   margin: 0 auto;
-  height: 474px;
+  min-height: 474px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
-    height: 600px;
+    min-height: 600px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1440px;
-    height: 400px;
+    min-height: 400px;
   }
 }
 
 .location {
-  width: 320px;
+  position: relative;
+  display: flex;
+  flex-flow: column-reverse;
   margin: 0 auto;
-
-  @media (min-width: $tablet-width) {
-    width: 768px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
-  }
 }
 
 .location__image {
-  background: url("../img/location-mobile.png") no-repeat;
-  width: 320px;
-  height: 362px;
+  position: absolute;
+  background: url("../img/location-mobile.png");
+  background-position: center;
+  width: 100%;
+  min-width: 320px;
+  height: 342px;
+  order: 2;
+
 
   @media (min-width: $tablet-width) {
-    background: url("../img/location-tablet.png") no-repeat;
-    width: 768px;
+    background: url("../img/location-tablet.png");
+    background-position: center;
+    min-width: 768px;
     height: 400px;
   }
 
   @media (min-width: $desktop-width) {
-    background: url("../img/location-desctop.png") no-repeat;
-    width: 1440px;
+    background: url("../img/location-desctop.png");
+    background-position: center;
+    min-width: 1440px;
     height: 400px;
   }
 }

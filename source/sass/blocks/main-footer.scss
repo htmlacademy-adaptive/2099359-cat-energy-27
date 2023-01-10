@@ -1,17 +1,5 @@
 .main-footer {
-  width: 320px;
-  margin: 0 auto;
-  background: #f2f2f2;
-
-  @media (min-width: $tablet-width) {
-    width: 768px;
-    background: #f2f2f2;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
-    background: #f2f2f2;
-  }
+  background: linear-gradient(to top, #f2f2f2 33%, transparent 33%);
 }
 
 .main-footer__wrapper {
@@ -20,16 +8,18 @@
   justify-content: space-between;
   padding-top: 40px;
   align-items: center;
-  width: 320px;
+  min-width: 320px;
   margin: 0 auto;
   padding-bottom: 30px;
 
+
   @media (min-width: $tablet-width) {
-    width: 768px;
+    max-width: 710px;
     flex-direction: row;
   }
 
+
   @media (min-width: $desktop-width) {
-    width: 1220px;
+    max-width: 1220px;
   }
 }

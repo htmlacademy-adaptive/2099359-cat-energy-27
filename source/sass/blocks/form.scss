@@ -191,6 +191,10 @@
   margin: 0;
   padding: 0;
   margin-bottom: 35px;
+  position: relative;
+  display: inline-block;
+  background: #ffffff;
+  transform: translateY(-70%);
 
   @media (min-width: $tablet-width) {
     font-size: 36px;

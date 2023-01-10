@@ -2,9 +2,8 @@
   position: absolute;
   background-image: url("../img/intro-wrapper-mobile.png");
   background-position: center;
-  margin-top: -25px;
-  margin-left: -18px;
-  width: 320px;
+  width: 100%;
+  min-width: 320px;
   height: 302px;
   z-index: -1;
 
@@ -16,8 +15,8 @@
     display: block;
     position: absolute;
     margin-top: -112px;
-    margin-left: 700px;
-    width: 734px;
+    margin-left: 740px;
+    width: 50%;
     height: 694px;
     background-image: url("../img/intro-background.jpg");
     z-index: -1;
@@ -25,7 +24,10 @@
 }
 
 .intro {
-  height: 459px;
+  position: relative;
+  padding-top: 3px;
+  margin: 0 auto;
+  min-height: 459px;
   margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
@@ -33,8 +35,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    background: url("../img/index-can.png") no-repeat;
-    background-position: 540px 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
     height: 580px;
     margin-bottom: 82px;
   }
@@ -129,7 +132,12 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: none;
+    background: url("../img/index-can.png") no-repeat;
+    background-position: 451px 15px;
+    width: 70%;
+    margin-top: -310px;
+    height: 580px;
+    margin-bottom: 82px;
   }
 }
 

@@ -52,17 +52,17 @@
   </header>
 
   <main class="main-holder">
-    <div class="page-container">
-      <form action="https://echo.htmlacademy.ru" class="form" method="get">
-        <div class="form__holder wrapper">
-          <header class="form__header">
-            <h1 class="form__title">Подбор программы</h1>
-            <p class="form__subtitle">Заполните анкету, и мы подберем
-              программу питания для вашего кота</p>
-          </header>
-        </div>
-        <section class="form-main">
-          <div class="form__wrapper wrapper">
+    <form action="https://echo.htmlacademy.ru" class="form" method="get">
+      <div class="form__holder wrapper page-container">
+        <header class="form__header">
+          <h1 class="form__title">Подбор программы</h1>
+          <p class="form__subtitle">Заполните анкету, и мы подберем
+            программу питания для вашего кота</p>
+        </header>
+      </div>
+      <section class="form-main">
+        <div class="form__wrapper">
+          <div class="page-container">
             <div class="form__card-data">
               <div class="form__card">
                 <label for="data-name" class="form__label form__data-label">
@@ -116,8 +116,14 @@
                 </ul>
               </div>
             </div>
-            <div class="form__section">
-              <h3 class="form__section-title">Контактные данные (владельца кота)</h3>
+          </div>
+          <div class="form__section">
+            <div class="form__section-title-wrapper title__wrapper">
+              <div class="page-container">
+                <h3 class="form__section-title">Контактные данные (владельца кота)</h3>
+              </div>
+            </div>
+            <div class="form__section-wrapper page-container">
               <ul class="form__list">
                 <li class="form__list-item">
                   <label for="email" class="form__label form__section-label">
@@ -135,16 +141,28 @@
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div class="form__comment">
-              <h3 class="form__section-title">
-                Комментарий
-              </h3>
+          <div class="form__comment">
+            <div class="form__comment-title-wrapper title__wrapper">
+              <div class="page-container">
+                <h3 class="form__section-title">
+                  Комментарий
+                </h3>
+              </div>
+            </div>
+            <div class="form__comment-wrapper page-container">
               <textarea class="form__control-textarea form__text" placeholder="Расскажите обо всех повадках кота"
                 name="comment"></textarea>
             </div>
-            <div class="form__aplication">
-              <h3 class="form__aplication-title form__section-title">Дополнительно</h3>
+          </div>
+          <div class="form__aplication">
+            <div class="form__aplication-title-wrapper title__wrapper">
+              <div class="page-container">
+                <h3 class="form__aplication-title form__section-title">Дополнительно</h3>
+              </div>
+            </div>
+            <div class="form__aplication-wrapper page-container">
               <ul class="form__aplication-list">
                 <li class="form__list-item">
                   <label class="form__aplication-checkbox">
@@ -188,15 +206,21 @@
               <span class="form__aplication-desc">* — Обязательные поля</span>
             </div>
           </div>
-        </section>
-      </form>
+        </div>
+      </section>
+    </form>
     </div>
   </main>
 
   <footer class="main-footer">
     <section class="location">
-      <div class="location__wrapper ">
-        <div class="location__contacts">
+      <div class="location__image">
+        <!-- <img src="img/location.png" alt="Карта" class="location__background" width="1440" height="400">
+       </div> -->
+        <!-- <img src="img/location-mobile.png" alt="Карта" class="location__background" width="320" height="362"> -->
+      </div>
+      <div class="location__wrapper page-container">
+        <div class="location__contacts location__background">
           <h2 class="location__title">приглашаем
             к сотрудничеству
             дилеров!</h2>
@@ -206,11 +230,7 @@
             Санкт-<br>Петербург</span>
         </div>
 
-        <div class="location__image">
-        </div>
       </div>
-
-
     </section>
     <div class="main-footer__wrapper">
 
